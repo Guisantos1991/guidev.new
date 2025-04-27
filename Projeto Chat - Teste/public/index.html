@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Furia Fan Chat</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/ui-kit.css">
+    <link rel="icon" type="image/png" href="../src/icons/logo-fundo-furia.PNG" >
+  </head>
+
+  <body class="page--body d--flex justify--center">
+
+
+    <div class="container flex--row justify--start items--stretch gap--lg">
+
+
+      <div class="left--container">
+        <div class="logo--container flex--row - justify--start items--start">
+          <img class="logo--left--container" src="../src/icons/logo-furia2.svg" />
+          <span class="d--flex items--end justify--end">FanChat</span>
+        </div>
+        <br/><br/>
+
+        <div class="menu--left flex--column justify--start items--start">
+          <span>Deixe seu nome/nick aqui:</span>
+          <div class="login--menu flex--row justify--start items--center">
+            
+            <img class="icon--login" src="../src/icons/login--menu.svg">
+            <input id="username" placeholder="Nome/Nick" />
+          
+          </div>
+          <br/>
+          <span>Em qual mapa vai rolar esse papo?</span>
+          <div>
+            <select name="room" id="room">
+              <option value="N/A">Selecione um mapa</option>
+              <option value="Mirage">Mirage</option>
+              <option value="Inferno">Inferno</option>
+              <option value="Train">Train</option>
+            </select>
+
+            <button class="btn--default" onclick="connect(); atualizarUsername();">Entrar</button>
+
+          </div>
+        </div>
+        <div class="esports flex--column justify--center items--center">
+        <div class="esports--icon flex--row justify--center items--center">
+          <img class="esports--icon--img" src="../src/icons/furia--cs.PNG" />
+          <img class="esports--icon--img" src="../src/icons/furia--rl.PNG" />
+          <img class="esports--icon--img" src="../src/icons/furia--lol.PNG" />
+          <img class="esports--icon--img" src="../src/icons/furia--pubg.PNG" />
+        </div>
+
+        <div class="esports--icon flex--row justify--center items--center item2">
+          <img class="esports--icon--img" src="../src/icons/furia--r6.PNG" />
+          <img class="esports--icon--img" src="../src/icons/furia--acad.PNG" />
+          <img class="esports--icon--img" src="../src/icons/furia--creators.PNG" />
+          
+        </div>
+      </div>
+
+      <div class="left--footer flex--column justify--center items--start">
+        <div class="insta flex--row justify--center items--center">
+          <img class="insta--logo justify--center" src="../src/icons/logo--insta.svg"/>
+            <div class="social--text flex--column justify--center items--start">
+              <a href="https://www.instagram.com/furiagg/">Furiagg</a>
+              <a href="https://www.instagram.com/furia_gg/">Furia.apparel</a>
+            </div>
+        </div>
+        <div class="text--info">
+          <span>Nos visite em:</span>
+          <a href="https://furia.gg">furia.gg</a>
+          <br/>
+          <span>Todos os direitos reservados</span>
+        </div>
+        
+
+
+
+      </div>
+
+
+
+      </div>
+
+
+      <div class="mid--container flex--column justify--center items--start">
+        <div class="mid--title">PageFuriosa!</div>
+        <div class="mid--group flex--column justify--start items--start">
+          <span class="mid--group--title">Novidades</span>
+          <div class="news flex--column justify--center items--center">
+            <div class="news--item justify--center">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere voluptas fugit aliquam, numquam maiores cum soluta quasi. Animi ratione unde consequatur vero sequi ex quia dolore nihil dolor enim?</span>
+            </div>
+            <div class="separator"></div>
+            <div><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere voluptas fugit aliquam, numquam maiores cum soluta quasi. Animi ratione unde consequatur vero sequi ex quia dolore nihil dolor enim?</span>
+            </div>         
+          </div>
+          <div class="separator2"></div>
+
+          <span class="mid--group--title">O que rolou nas redes</span>
+          <div class="info--social--media flex--column justify--start items--center">
+            <div class="social--media--box flex--column justify--center items--center">
+              <div class="media--text d--flex flex--1 justify--center items--center">
+                <img class="icon--profile" src="../src/icons/login--black--icon.svg" />
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere voluptas fugit aliquam?</span>
+              </div>
+
+              <div class="media--text d--flex flex--1 justify--center items--center">
+                <img class="icon--profile" src="../src/icons/login--black--icon.svg" />
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere voluptas fugit aliquam?</span>
+              </div>
+
+              <div class="media--text d--flex flex--1 justify--center items--center">
+                <img class="icon--profile" src="../src/icons/login--black--icon.svg" />
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere voluptas fugit aliquam?</span>
+              </div>
+              
+              
+            </div>
+            
+          </div>
+          <a href="https://furia.gg" class="mid--bottom--title">furia.gg</a>
+          
+          <div class="store flex--row justify--center items--center">
+            <div class="store--item flex--column justify--center items--center">
+              <img class="image--bottom flex--3" src="../src/images/camiseta--furia.png" alt="">
+              <a href="">Camisetas</a>
+            </div>
+            <div class="store--item flex--column justify--center items--center">
+              <img class="image--bottom flex--3" src="../src/images/over--furia.png" alt="">
+              <a href="">Oversized's</a>
+            </div>
+            <div class="store--item flex--column justify--center items--center">
+              <img class="image--bottom flex--3" src="../src/images/jaqueta--furia.png" alt="">
+              <a href="">Jaquetas</a>
+            </div>
+
+          </div>
+       
+          
+        </div>
+        
+      </div>
+
+      <div class="right--container flex--column items--start flex--1">
+
+        <div class="right--top flex--row justify--center items--center flex--2">
+
+
+          <div class="right--profile flex--row justify--center items--center">
+
+            <div class="profile--icon d--flex flex--1 items--center justify--center"><img src="../src/icons/login--black--icon.svg" alt=""></div>
+
+            <div class="profile--name flex--row flex--10 items--center"><h1 id="top--username">Nome Usuário</h1></div>
+
+            <div class="profile--logo flex--row flex--1 items--center">
+
+              <img class="logo--top--right" src="../src/icons/top--logo--black.svg" />
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="body--chat flex--column justify--center items--center flex--10"></div>
+
+        <div class="text--bar flex--row justify--center items--center">
+          <div id="chat" class="flex--row justify--center items--center">
+            <input id="message" class="flex--row justify--center items--center" placeholder="Digite sua mensagem" />
+          <button class="send--button d--flex items--center justify--center" onclick="sendMessage()"><img class="icon--send" src="../src/icons/logo--enviar--furia.svg"/></button>
+          </div>
+        </div>
+
+      
+      </div>
+   </div>
+   <script>
+    let socket;
+
+    function connect() {
+      const username = document.getElementById('username').value;
+      const room = document.getElementById('room').value;
+      socket = new WebSocket('ws://localhost:3000');
+
+      socket.onopen = () => {
+        socket.send(JSON.stringify({ room, username, message: 'entrando' }));
+      };
+
+      socket.onmessage = (event) => {
+        const div = document.getElementById('chat');
+        div.innerHTML += `<p>${event.data}</p>`;
+      };
+    }
+
+    function sendMessage() {
+      const message = document.getElementById('message').value;
+      const username = document.getElementById('username').value;
+      const room = document.getElementById('room').value;
+
+      if (socket.readyState === WebSocket.OPEN) {
+        socket.send(JSON.stringify({ username, room, message }));
+      }
+    }
+
+    function atualizarUsername() {
+      const input = document.getElementById('username').value;
+      const nomeDigitado = input.value.trim();
+      const topUsername = document.getElementById('top--username');
+      
+      if (nomeDigitado !== '') {
+        
+        topUsername.innerHTML = '';
+        
+        topUsername.textContent = nomeDigitado;
+      } else {
+        
+        topUsername.innerHTML = '';
+      }
+}
+
+
+  </script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+/* UI Kit Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  margin: 0;;
+}
+
+/* DISPLAY */
+
+.d--none { display: none; }
+.d--block { display: block; }
+.d--inline-block { display: inline-block; }
+.d--inline { display: inline; }
+.d--flex { display: flex; }
+
+/* FLEX CONTAINER */
+.flex--row { display: flex; flex-direction: row; }
+.flex--row-reverse { display: flex; flex-direction: row-reverse; }
+.flex--column { display: flex; flex-direction: column; }
+.flex--column-reverse { display: flex; flex-direction: column-reverse; }
+.flex--wrap { flex-wrap: wrap; }
+.flex--nowrap { flex-wrap: nowrap; }
+.flex--wrap-reverse { flex-wrap: wrap-reverse; }
+
+/* JUSTIFY CONTENT */
+.justify--start { justify-content: flex-start; }
+.justify--center { justify-content: center; }
+.justify--end { justify-content: flex-end; }
+.justify--between { justify-content: space-between; }
+.justify--around { justify-content: space-around; }
+.justify--evenly { justify-content: space-evenly; }
+
+/* ALIGN ITEMS */
+.items--start { align-items: flex-start; }
+.items--center { align-items: center; }
+.items--end { align-items: flex-end; }
+.items--stretch { align-items: stretch; }
+.items--baseline { align-items: baseline; }
+
+/* ALIGN CONTENT (para múltiplas linhas) */
+.content--start { align-content: flex-start; }
+.content--center { align-content: center; }
+.content--end { align-content: flex-end; }
+.content--between { align-content: space-between; }
+.content--around { align-content: space-around; }
+.content--stretch { align-content: stretch; }
+
+/* ALIGN SELF (individual) */
+.self--start { align-self: flex-start; }
+.self--center { align-self: center; }
+.self--end { align-self: flex-end; }
+.self--stretch { align-self: stretch; }
+
+/* GAP */
+.gap--xs { gap: 0.25rem; }
+.gap--sm { gap: 0.5rem; }
+.gap--md { gap: 1rem; }
+.gap--lg { gap: 2rem; }
+.gap--xl { gap: 4rem; }
+
+/* FLEX GROW / SHRINK / BASIS */
+.flex--grow-1 { flex-grow: 1; }
+.flex--shrink-0 { flex-shrink: 0; }
+.flex--basis-50 { flex-basis: 50%; }
+.flex--basis-auto { flex-basis: auto; }
+
+/* ORDER */
+.order--1 { order: 1; }
+.order--2 { order: 2; }
+.order--last { order: 999; }
+
+/* DIMENSÕES EXTRAS ÚTEIS */
+.w--full { width: 100%; }
+.h--full { height: 100%; }
+
+.text--center { text-align: center; }
+.bg--light { background-color: #f0f0f0; }
+.bg--dark { background-color: #333; color: #fff; }
+.p--1 { padding: 1rem; }
+.p--2 { padding: 2rem; }
+
+
+
+/* FLEX ITEM */
+.flex--1 {Flex: 1; flex-grow: 1;}
+.Flex--2 {Flex: 2; flex-grow: 2;}
+.Flex--3 {Flex: 3; flex-grow: 3;}
+.Flex--4 {Flex: 4;}
+.Flex--5 {Flex: 5;}
+.Flex--6 {Flex: 6;}
+.Flex--7 {Flex: 7; flex-grow: 7;}
+.Flex--8 {Flex: 8;}
+.Flex--9 {Flex: 9;}
+.Flex--10 {Flex: 10;}
+.flex--13 { flex: 13; }
+
+
